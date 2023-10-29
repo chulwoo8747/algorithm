@@ -1,0 +1,23 @@
+a = int(input())
+b = 1000 - a
+count = 0
+while b != 0: 
+    if b >= 500: 
+        b-=500
+        count+=1
+    elif b >= 100:
+        b -= 100
+        count+=1
+    elif b >= 50:
+        b -= 50
+        count+=1
+    elif b >= 10: 
+        b -= 10
+        count+=1
+    elif b >= 5:
+        b -= 5
+        count+=1
+    elif b >= 1:
+        b -= 1
+        count+=1
+print(count)
